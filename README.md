@@ -20,7 +20,7 @@ Usually, providing write-ups during the time of the CTF is **forbidden**, so you
 * If you're alone or there's multiple Fx0 teams please create a new repo (make sure it is private)
 
 ### Add the people you're working with as collaborators
-* If your team is composed at 100% of Fx0 members, you don't need to worry, everyobdy already got access to the private repo
+* If your team is 100% Fx0 members, you don't have to worry, every member already has access to the private repository.
 * If there are some people on your team that aren't Fx0 members, add them to the repo as external colaborators
 * If you're working on a private repo because there are multiple FX0 teams, please add the people on your team to your repo
 * If you're alone, please do not add anybody playing on the same CTF as you are

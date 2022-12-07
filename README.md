@@ -13,10 +13,10 @@ This is the repository where we publish all of our write-ups! feel free to read 
 
 ## Creating a new working area for the CTF
 
-### Creating a new branch (Or a FORK)
+### Creating a new branch (Or a new repo)
 Usually, providing write-ups during the time of the CTF is **forbidden**, so you might want to **fork this repository** and put it in **private** to publish your write-ups
 * If there's only one Fx0 team, use the github organisation private repo
-* If you're alone or there's multiple Fx0 teams [fork this repo](https://github.com/flagexcepti0n/write-ups/fork)
+* If you're alone or there's multiple Fx0 teams please create a new repo (make sure it is private)
 
 ### Add the people you're working with as collaborators
 * If your team is composed at 100% of Fx0 members, you don't need to worry, everyobdy already got access to the private repo
@@ -37,3 +37,27 @@ Usually, providing write-ups during the time of the CTF is **forbidden**, so you
 * Make sure it is as much humanly readable as possible (you might want to tweak how it is formated if not)
 * All files should end with the extention `.md` (Markdown)
 * They should also be placed into the folder of the CTF they belong to
+
+## Merging your Write-ups
+Merging your write-ups will require a bit of git magic so follow these steps carefully
+
+Fisrt, start by adding this repo to your git origins and fetching it
+```sh
+# add this repo to your origins and call it "upstream"
+git remote add upstream https://github.com/flagexcepti0n/write-ups.git
+
+#fetch the branches of the upstream repo
+git fetch upstream
+```
+
+Then we'll merge your branch into the main of this repo (**You can also use a GUI interface for this step**)
+```sh
+#merge your branch into upstream/main
+git checkout upstream/main
+git merge new-ctf-branch
+```
+
+Congratulation, you now just need to push your changes to origin
+```sh
+git push
+```

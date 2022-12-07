@@ -6,6 +6,7 @@ This is the repository where we publish all of our write-ups! feel free to read 
 ## Providing this repository with new write-ups
 ### [Creating a new working area for the CTF](https://github.com/flagexcepti0n/write-ups/edit/main/README.md#creating-a-new-working-area-for-the-ctf-1)
 ### [Add your Write-ups](https://github.com/flagexcepti0n/write-ups/edit/main/README.md#add-your-write-ups-1)
+### [Merging your Write-ups](https://github.com/flagexcepti0n/write-ups/edit/main/README.md#merging-your-write-ups-1)
 
 <br/>
 

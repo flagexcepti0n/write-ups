@@ -42,23 +42,15 @@ Usually, providing write-ups during the time of the CTF is **forbidden**, so you
 ## Merging your Write-ups
 Merging your write-ups will require a bit of git magic so follow these steps carefully
 
-Fisrt, start by adding this repo to your git origins and fetching it
+Merge your branch to main
 ```sh
-# add this repo to your origins and call it "upstream"
-git remote add upstream https://github.com/flagexcepti0n/write-ups.git
-
-#fetch the branches of the upstream repo
-git fetch upstream
+#merge your branch to your local main branch
+git switch main
+git merge [YOUR_BRANCH]
 ```
 
-Then we'll merge your branch into the main of this repo (**You can also use a GUI interface for this step**)
+Push your changes to origin
 ```sh
-#merge your branch into upstream/main
-git checkout upstream/main
-git merge new-ctf-branch
-```
-
-Congratulation, you now just need to push your changes to origin
-```sh
-git push
+git remote add public git@github.com:flagexcepti0n/write-ups.git
+git push -u public main
 ```

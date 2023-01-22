@@ -1,22 +1,17 @@
 # Hello
+___________
+Pour ce challenge on nous donne une capture de réseaux après une rapide analyse, on remarque une série de requetes dns non-resolue.
 
-Pour ce challange on nous donne une capture de reseaux apres une rapide analyse on remarque une seris de requet dns 
-non-resolue.
-
-On vois que leur sous domaisn fais un caracter a chaque fois on les ecris les un a la suit des autre et
-on obtien : 
+On voit que leur sous domaine fais un caractère à chaque fois on les écrits les uns a la suit des autres et on obtient :
 
 ```VVBCTHtvMV9tcjNhX2VuMF9oazNfaTBofQ==```
 
-On decode cette chaine de caracter qui est visiblement en base 64 
-celas nous donne : 
+On décode cette chaîne de caractère qui est visiblement en base 64 celas nous donne :
 
 ```UPBL{o1_mr3a_en0_hk3_i0h}```
 
-on vois que cette chaine est chiffrer avec un algorythme de substitution car la structure semble corecte
-on cherche le debut de la clef (on nous dit dans l'enoncer que le flag est coder en vigner) car on sais que le flag comance par KCTF 
-on obtien KNIG nous en avont deduit que la clef etais KNIGHT et on obtien le flag :
+On voit que cette chaîne est chiffrer avec un algorithme de substitution, car la structure semble correcte, on cherche le début de la clef (on nous dit dans l'énoncer que le flag est coder en vigner) car on sait que le flag commence par KCTF on obtient KNIG nous en avons déduit que la clef était KNIGHT et on obtient le flag :
 
 ```KCTF{h1_th3n_wh0_ar3_y0u}```
 
-resolue par cartoone et maple
+Résolue par cartoone et maple

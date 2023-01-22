@@ -7,4 +7,4 @@ celas nous donne → UPBL{o1_mr3a_en0_hk3_i0h} on vois que cette chaine est chif
 apres quelque fause piste comme le ROT 13 on cherche le debut de la clef car on sais que le flag comance par KCTF 
 on obtien KNIG nous en avont deduit que la clef etais KNIGHT et on obtien le flag → KCTF{h1_th3n_wh0_ar3_y0u}
 
-resolue par cartoone et mapel
+resolue par cartoone et maple

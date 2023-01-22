@@ -1,4 +1,4 @@
-# Hello
+# Hello (300 pts)
 ___________
 Pour ce challenge on nous donne une capture de réseaux après une rapide analyse, on remarque une série de requetes dns non-resolue.
 

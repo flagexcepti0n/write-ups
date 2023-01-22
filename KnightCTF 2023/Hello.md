@@ -3,7 +3,7 @@
 Pour ce challange on nous donne une capture de reseaux apres une rapide analyse on remarque une seris de requet dns 
 non-resolue.
 
-on vois que leur sous domaisn fais un caracter a chaque fois on les ecris les un a la suit des autre et
+On vois que leur sous domaisn fais un caracter a chaque fois on les ecris les un a la suit des autre et
 on obtien : 
 
 ```VVBCTHtvMV9tcjNhX2VuMF9oazNfaTBofQ==```

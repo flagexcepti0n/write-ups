@@ -14,6 +14,7 @@ celas nous donne :
 on vois que cette chaine est chiffrer avec un algorythme de substitution car la structure semble corecte
 on cherche le debut de la clef (on nous dit dans l'enoncer que le flag est coder en vigner) car on sais que le flag comance par KCTF 
 on obtien KNIG nous en avont deduit que la clef etais KNIGHT et on obtien le flag :
+
 ```KCTF{h1_th3n_wh0_ar3_y0u}```
 
 resolue par cartoone et maple
